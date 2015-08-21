@@ -1,0 +1,30 @@
+{
+  "name": "taxaprisma",
+  "version": "0.0.1",
+  "description": "colors and silhouette images for taxonomic groups",
+  "main": "main.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhpoelen/taxaprisma.git"
+  },
+  "keywords": [
+    "biology",
+    "taxonomy",
+    "image",
+    "colors",
+    "biodiversity",
+    "bioinformatics"
+  ],
+  "author": "Jorrit Poelen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhpoelen/taxaprisma/issues"
+  },
+  "homepage": "https://github.com/jhpoelen/taxaprisma#readme",
+  "devDependencies": {
+    "tape": "^4.2.0"
+  }
+}

@@ -10,7 +10,7 @@ images obtained through [PhiloPic](http://phylopic.org)
 taxon | color | color code | silhouettes
 --- | --- | --- | --- 
 Protozoa & Algae | ![image](https://rawgit.com/jhpoelen/taxaprisma/master/colorProtozoaAlgae.svg) | #993300 | ![image](http://phylopic.org/assets/images/submissions/febb8ca1-4f28-4d6f-8e78-d7d3c568c893.thumb.png) 
-Fungi | ![image](https://rawgit.com/jhpoelen/taxaprisma/master/colorFungi.svg) | #F52887 | 
+Fungi | ![image](https://rawgit.com/jhpoelen/taxaprisma/master/colorFungi.svg) | #F52887 | ![image](http://phylopic.org/assets/images/submissions/afd875a3-815f-443b-9b93-3e5bedd9a7a3.thumb.png)
 Plantae| ![image](https://rawgit.com/jhpoelen/taxaprisma/master/colorPlantae.svg)| #73AC13|  ![image](http://phylopic.org/assets/images/submissions/b6400f39-345a-4711-ab4f-92fd4e22cb1a.thumb.png) 
 Insecta| ![image](https://rawgit.com/jhpoelen/taxaprisma/master/colorInsecta.svg) | #FF4500| ![image](http://phylopic.org/assets/images/submissions/6c6c5073-2383-40fb-9824-c6a8ed27badc.thumb.png) 
 Mollusca| ![image](https://rawgit.com/jhpoelen/taxaprisma/master/colorMollusca.svg) | #FF4500| ![image](http://phylopic.org/assets/images/submissions/1eb7433a-4943-4220-aa66-a658b272f23c.thumb.png) 

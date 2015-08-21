@@ -9,9 +9,9 @@ images obtained through [PhiloPic](http://phylopic.org)
 ## colors and slhouettes
 taxon | html color | silhouettes
 --- | --- | --- 
-some name|![image](http://phylopic.org/assets/images/submissions/9fa6f3b7-efda-49ce-a119-eb6070d77a75.thumb.png)
-some name|![image](http://phylopic.org/assets/images/submissions/febb8ca1-4f28-4d6f-8e78-d7d3c568c893.thumb.png) 
-some name|![image](http://phylopic.org/assets/images/submissions/083d187a-5b1b-478c-980b-31ad91f865fa.thumb.png) 
+some name| | ![image](http://phylopic.org/assets/images/submissions/9fa6f3b7-efda-49ce-a119-eb6070d77a75.thumb.png)
+some name| | ![image](http://phylopic.org/assets/images/submissions/febb8ca1-4f28-4d6f-8e78-d7d3c568c893.thumb.png) 
+some name| | ![image](http://phylopic.org/assets/images/submissions/083d187a-5b1b-478c-980b-31ad91f865fa.thumb.png) 
 Fungi | #F52887 | 
 Plantae| #73AC13| ![image](http://phylopic.org/assets/images/submissions/b6400f39-345a-4711-ab4f-92fd4e22cb1a.thumb.png) 
 Mollusca| #FF4500| ![image](http://phylopic.org/assets/images/submissions/1eb7433a-4943-4220-aa66-a658b272f23c.thumb.png) 

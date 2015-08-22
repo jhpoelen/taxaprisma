@@ -1,6 +1,6 @@
 {
   "name": "taxaprisma",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "colors and silhouette images for taxonomic groups",
   "main": "main.js",
   "scripts": {

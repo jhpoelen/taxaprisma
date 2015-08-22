@@ -36,6 +36,15 @@ var imageUrl = taxaprisma.imageFor('Animalia Mammalia Homo sapiens');
 // ---> 'data:image/png;base64,...'
 ```
 
+### imageLicenseFor
+Returns the license text for image.
+```javascript
+var taxaprisma = require('taxaprisma');
+var licenseText = taxaprisma.imageLicenseFor('Animalia Mollusca Polyplacophora Neoloricata')
+// ---> 'by Marcello under http://creativecommons.org/licenses/by/3.0/'
+```
+Many images were published under cc0 (http://creativecommons.org/publicdomain/zero/1.0/) .
+
 ### css
 A css style sheet is also available: [taxaprisma.css](./taxaprisma.css).
 

@@ -8,7 +8,7 @@ test('image license for mammals', function(t) {
 
 test('image license for mollusks', function(t) {
     t.plan(1);
-    t.equal(taxaprisma.imageLicenseFor('Something Mollusca something'), 'by Marcello under http://creativecommons.org/licenses/by/3.0/');
+    t.equal(taxaprisma.imageLicenseFor('Animalia Mollusca Polyplacophora Neoloricata'), 'by Marcello under http://creativecommons.org/licenses/by/3.0/');
 });
 
 test('default image', function(t) {

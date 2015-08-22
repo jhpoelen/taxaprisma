@@ -9,9 +9,8 @@ To make it easier to see what kind of higher order taxonomic group a taxon belon
 ## install
 ```npm install taxaprisma --save```
 
-
-
-## colorFor
+## usage
+### colorFor
 Returns color for taxon path.
 
 ```javascript
@@ -20,7 +19,7 @@ var htmlHexColorCode = taxaprisma.colorFor('Animalia Mammalia Homo sapiens');
 // ---> '#FF4500'
  ```
 
-## imageFor
+### imageFor
 Returns applicable image url for taxon path.
 
 ```javascript
@@ -28,7 +27,7 @@ var taxaprisma = require('taxaprisma');
 var imageUrl = taxaprisma.imageFor('Animalia Mammalia Homo sapiens');
 // ---> 'http://phylopic.org/assets/images/submissions/e5b0cde8-beab-48dc-b77c-d48b16c6a05e.thumb.png'
 ```
-## imageDataUrlFor
+### imageDataUrlFor
 Returns inlined image in data url.
 
 ```javascript
@@ -37,11 +36,11 @@ var imageUrl = taxaprisma.imageFor('Animalia Mammalia Homo sapiens');
 // ---> 'data:image/png;base64,...'
 ```
 
-## css
+### css
 A css style sheet is also available: [taxaprisma.css](./taxaprisma.css).
 
 ## anything missing?
-Please open [an issue](../issues/new) or submit a pull request.
+Please open [an issue](../../issues/new) or submit a pull request.
 
 ## colors and silhouettes
 taxon | color | color code | silhouettes

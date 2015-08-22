@@ -20,7 +20,6 @@ var taxaprisma = {};
 
 module.exports = taxaprisma;
 
-
 function matchesTaxon(taxonPath) {
     return taxonGroups.filter(function (obj) {
         return taxonPath.match(obj.name);

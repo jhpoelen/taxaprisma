@@ -1,14 +1,15 @@
 # taxaprisma
 Colors and silhouettes images for taxa.
+
 [![Build Status](https://travis-ci.org/jhpoelen/taxaprisma.svg?branch=master)](https://travis-ci.org/jhpoelen/taxaprisma)
 
 ## why?
 To make it easier to see what kind of higher order taxonomic group a taxon belongs to (e.g. mammal, insect).
 
-## origins
-colors were inspired by [iNaturalist](http://inaturalist.org)
+## install
+```npm install taxaprisma --save```
 
-images obtained through [PhiloPic](http://phylopic.org)
+
 
 ## colorFor
 Returns color for taxon path.
@@ -36,9 +37,11 @@ var imageUrl = taxaprisma.imageFor('Animalia Mammalia Homo sapiens');
 // ---> 'data:image/png;base64,...'
 ```
 
+## css
+A css style sheet is also available: [taxaprisma.css](./taxaprisma.css).
+
 ## anything missing?
 Please open [an issue](../issues/new) or submit a pull request.
-
 
 ## colors and silhouettes
 taxon | color | color code | silhouettes
@@ -54,3 +57,9 @@ Reptilia| ![image](https://rawgit.com/jhpoelen/taxaprisma/master/assets/colorRep
 Actinopterygii| ![image](https://rawgit.com/jhpoelen/taxaprisma/master/assets/colorActinopterygii.svg) | #1E90FF | ![image](http://phylopic.org/assets/images/submissions/90e1c28f-dd6f-4b1c-b263-91d208610458.thumb.png)
 Amphibia| ![image](https://rawgit.com/jhpoelen/taxaprisma/master/assets/colorAmphibia.svg) | #1E90FF | ![image](http://phylopic.org/assets/images/submissions/244be3ea-0fe5-45b6-b04e-1bd914489f95.thumb.png)
 Mammalia| ![image](https://rawgit.com/jhpoelen/taxaprisma/master/assets/colorMammalia.svg)| #1E90FF | ![image](http://phylopic.org/assets/images/submissions/e5b0cde8-beab-48dc-b77c-d48b16c6a05e.thumb.png)
+
+## origins
+colors were inspired by [iNaturalist](http://inaturalist.org)
+
+images obtained through [PhiloPic](http://phylopic.org)
+

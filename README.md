@@ -1,12 +1,46 @@
 # taxaprisma
-colors and silhouettes images for taxonomic groups.
+Colors and silhouettes images for taxa.
+[![Build Status](https://travis-ci.org/jhpoelen/taxaprisma.svg?branch=master)](https://travis-ci.org/jhpoelen/taxaprisma)
+
+## why?
+To make it easier to see what kind of higher order taxonomic group a taxon belongs to (e.g. mammal, insect).
 
 ## origins
 colors were inspired by [iNaturalist](http://inaturalist.org)
 
-images obtained through [PhiloPic](http://phylopic.org) 
+images obtained through [PhiloPic](http://phylopic.org)
 
-## colors and slhouettes
+## colorFor
+Returns color for taxon path.
+
+```javascript
+var taxaprisma = require('taxaprisma');
+var htmlHexColorCode = taxaprisma.colorFor('Animalia Mammalia Homo sapiens');
+// ---> '#FF4500'
+ ```
+
+## imageFor
+Returns applicable image url for taxon path.
+
+```javascript
+var taxaprisma = require('taxaprisma');
+var imageUrl = taxaprisma.imageFor('Animalia Mammalia Homo sapiens');
+// ---> 'http://phylopic.org/assets/images/submissions/e5b0cde8-beab-48dc-b77c-d48b16c6a05e.thumb.png'
+```
+## imageDataUrlFor
+Returns inlined image in data url.
+
+```javascript
+var taxaprisma = require('taxaprisma');
+var imageUrl = taxaprisma.imageFor('Animalia Mammalia Homo sapiens');
+// ---> 'data:image/png;base64,...'
+```
+
+## anything missing?
+Please open [an issue](../issues/new) or submit a pull request.
+
+
+## colors and silhouettes
 taxon | color | color code | silhouettes
 --- | --- | --- | --- 
 Protozoa & Algae | ![image](https://rawgit.com/jhpoelen/taxaprisma/master/assets/colorProtozoaAlgae.svg) | #993300 | ![image](http://phylopic.org/assets/images/submissions/febb8ca1-4f28-4d6f-8e78-d7d3c568c893.thumb.png) 

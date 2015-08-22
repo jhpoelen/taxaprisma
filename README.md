@@ -32,7 +32,7 @@ Returns inlined image in data url.
 
 ```javascript
 var taxaprisma = require('taxaprisma');
-var imageUrl = taxaprisma.imageFor('Animalia Mammalia Homo sapiens');
+var imageUrl = taxaprisma.imageDataUrlFor('Animalia Mammalia Homo sapiens');
 // ---> 'data:image/png;base64,...'
 ```
 

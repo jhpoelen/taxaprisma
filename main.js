@@ -15,6 +15,8 @@ var taxonGroups = [
 ];
 
 var defaultColor = '#000000';
+// png 1px transparent
+var defaultImageDataUrl = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=';
 
 var taxaprisma = {};
 
@@ -47,7 +49,7 @@ taxaprisma.imageFor = function (taxonPath) {
 
 taxaprisma.imageDataUrlFor = function (taxonPath) {
     var matches = matchesTaxon(taxonPath);
-    var img = null;
+    var img = defaultImageDataUrl;
     if (matches.length > 0) {
         img = 'data:image/png;base64,' + matches[0].image.base64;
     }

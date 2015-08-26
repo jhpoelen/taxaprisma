@@ -3,7 +3,7 @@ var test = require('tape');
 
 test('color for mammals', function(t) {
     t.plan(1);
-    t.equal(taxaprisma.colorFor('Animalia Mammalia Homo Sapiens'), '#FF4500');
+    t.equal(taxaprisma.colorFor('Animalia Mammalia Homo Sapiens'), '#1E90FF');
 });
 
 test('default color', function(t) {

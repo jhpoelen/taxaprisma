@@ -15,3 +15,8 @@ test('default image', function(t) {
     t.plan(1);
     t.notOk(taxaprisma.imageLicenseFor('Donald duckus'));
 });
+
+test('default image null path', function(t) {
+    t.plan(1);
+    t.notOk(taxaprisma.imageLicenseFor(null));
+});

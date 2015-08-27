@@ -15,3 +15,8 @@ test('default image', function(t) {
     t.plan(1);
     t.notOk(taxaprisma.imageFor('Donald duckus'));
 });
+
+test('default image null taxon', function(t) {
+    t.plan(1);
+    t.notOk(taxaprisma.imageFor(null));
+});

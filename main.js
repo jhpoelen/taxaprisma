@@ -23,9 +23,13 @@ var taxaprisma = {};
 module.exports = taxaprisma;
 
 function matchesTaxon(taxonPath) {
-    return taxonGroups.filter(function (obj) {
-        return taxonPath.match(obj.name);
-    });
+    var matches = [];
+    if (taxonPath) {
+        matches = taxonGroups.filter(function (obj) {
+            return taxonPath.match(obj.name);
+        });
+    }
+    return  matches;
 }
 taxaprisma.colorFor = function (taxonPath) {
     var matches = matchesTaxon(taxonPath);
@@ -63,7 +67,7 @@ taxaprisma.imageLicenseFor = function (taxonPath) {
         var first = matches[0];
         licenseText = cc0;
         if (first.image.licenseURL !== cc0) {
-            licenseText = ['by', first.image.attribution, 'under',first.image.licenseURL].join(' ');
+            licenseText = ['by', first.image.attribution, 'under', first.image.licenseURL].join(' ');
         }
     }
     return licenseText;

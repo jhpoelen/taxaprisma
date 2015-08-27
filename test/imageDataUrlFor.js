@@ -18,7 +18,13 @@ test('image data url for aves', function(t) {
     t.ok(taxaprisma.imageDataUrlFor('Animalia Aves Larus').match(/SuQmCC/));
 });
 
+test('image data url for aves svg', function(t) {
+    t.plan(1);
+    t.notOk(taxaprisma.imageDataUrlFor('Animalia Aves Larus', 'image/svg+xml'));
+});
+
 test('image data url for null path', function(t) {
     t.plan(1);
     t.equal(taxaprisma.imageDataUrlFor(null), defaultImageDataUrl);
 });
+

@@ -1,0 +1,29 @@
+/* Icons */
+@font-face {
+  font-family: 'Taxaprisma';
+  src: url('font/Taxaprisma.eot');
+  src: url('font/Taxaprisma.eot') format('embedded-opentype'),
+      url('font/Taxaprisma.ttf') format('truetype'),
+      url('font/Taxaprisma.woff') format('woff'),
+      url('font/Taxaprisma.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon-1:before {
+  font-family: 'Taxaprisma';
+  font-size: 5em;
+  content: '\ea01';
+  color: #FF4500;
+}
+.icon-2:before {
+  font-family: 'Taxaprisma';
+  font-size: 5em;
+  content: '\ea02';
+  color: #F52887;
+}
+.icon-3:before {
+  font-family: 'Taxaprisma';
+  font-size: 5em;
+  content: '\ea03';
+  color: #73AC13;
+}

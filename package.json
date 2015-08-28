@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/jhpoelen/taxaprisma#readme",
   "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-iconfont": "^4.0.0",
     "tape": "^4.2.0"
   }
 }

@@ -16,6 +16,11 @@ test('image for birds', function(t) {
     t.equal(taxaprisma.imageFor('Animalia Aves Larus', 'image/png'), 'http://phylopic.org/assets/images/submissions/ee764929-c865-44f6-b5db-b4e7d5693d1a.thumb.png');
 });
 
+test('image for sharks and rays', function(t) {
+    t.plan(1);
+    t.equal(taxaprisma.imageFor('Elasmobranchii something something', 'image/png'), 'http://phylopic.org/assets/images/submissions/993d4e41-51b3-4c59-a4ad-b3dbd482968e.thumb.png');
+});
+
 test('image for birds svg', function(t) {
     t.plan(1);
     t.equal(taxaprisma.imageFor('Animalia Aves Larus', 'image/svg+xml'), 'http://phylopic.org/assets/images/submissions/ee764929-c865-44f6-b5db-b4e7d5693d1a.svg');

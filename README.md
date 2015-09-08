@@ -63,6 +63,7 @@ Arachnida| ![image](https://rawgit.com/jhpoelen/taxaprisma/master/assets/colorAr
 Aves| ![image](https://rawgit.com/jhpoelen/taxaprisma/master/assets/colorAves.svg) | #1E90FF | ![image](http://phylopic.org/assets/images/submissions/ee764929-c865-44f6-b5db-b4e7d5693d1a.thumb.png)
 Reptilia| ![image](https://rawgit.com/jhpoelen/taxaprisma/master/assets/colorReptilia.svg) | #1E90FF | ![image](http://phylopic.org/assets/images/submissions/dffda000-77cb-4251-b837-0cd2ab21ed5b.thumb.png)
 Actinopterygii| ![image](https://rawgit.com/jhpoelen/taxaprisma/master/assets/colorActinopterygii.svg) | #1E90FF | ![image](http://phylopic.org/assets/images/submissions/90e1c28f-dd6f-4b1c-b263-91d208610458.thumb.png)
+Elasmobranchii| ![image](https://rawgit.com/jhpoelen/taxaprisma/master/assets/colorElasmobranchii.svg) | #1E90FF | ![image](http://phylopic.org/assets/images/submissions/993d4e41-51b3-4c59-a4ad-b3dbd482968e.thumb.png)
 Amphibia| ![image](https://rawgit.com/jhpoelen/taxaprisma/master/assets/colorAmphibia.svg) | #1E90FF | ![image](http://phylopic.org/assets/images/submissions/244be3ea-0fe5-45b6-b04e-1bd914489f95.thumb.png)
 Mammalia| ![image](https://rawgit.com/jhpoelen/taxaprisma/master/assets/colorMammalia.svg)| #1E90FF | ![image](http://phylopic.org/assets/images/submissions/e5b0cde8-beab-48dc-b77c-d48b16c6a05e.thumb.png)
 
